@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `株式会社Digital Stacks`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -12,6 +12,17 @@ module.exports = {
     },
   },
   plugins: [
+    // {
+    //   resolve: "gatsby-source-graphql",
+    //   options: {
+    //     typeName: "WPGraphQL",
+    //     fieldName: "wpcontent",
+    //     // GraphQL endpoint, relative to your WordPress home URL.
+    //     url: "https://next.digitalresearch.net/graphql",
+    //     // GraphQL endpoint using env variable
+    //    // url: "${process.env.WORDPRESS_URL}/graphql",
+    //   },
+    // },
     {
       resolve: `gatsby-source-wordpress`,
       options: {
